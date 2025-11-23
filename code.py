@@ -1,7 +1,7 @@
 import mysql.connector as ms
 from prettytable import  PrettyTable 
 c=ms.connect(host='localhost',user='root',password='your_new_password' ,database='catcafe')
-print("welcome to PET A CAT <3 CAFE , hope you have a good day")
+print("welcome to PET A CAT <3 CAFE , hope you have a good day !")
 print()
 cob=c.cursor()
 bill=[]
@@ -11,18 +11,18 @@ o=int(input("""options:
 3. adoapt a buddy
 4.donation for pet care
 Enter your choice: """))
-y=input("are you a new customer? (yes/no)")
+y=input("are you a new customer? (yes/no) : ")
 if y=='yes':
     name=input("enter name : ")
     contact=int(input("enter contact : "))
-    id_no = int(input("input id :"))
+    id_no = int(input("input id : "))
     cob.execute("insert into customer values ( '{}','{}',{}) ".format(name,contact,id_no))
     c.commit()
 else :
-    id_no = int(input("input id :"))
+    id_no = int(input("input id : "))
 def func1():
     da=input ("enter date for event : ")
-    t=input("enter time")
+    t=input("enter time : ")
     g=int(input("enter no. of people : "))
     de=input("decoratation requirement ? (yes/no) : ")
     if de.lower()=="yes":

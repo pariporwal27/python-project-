@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 1, strawberry ,180 ,  
 2, chocolate ,180, 
 3, butterstoch ,190  ,
 4, oreo ,200,
-=======
-1, strawberry ,180 ,  
-2, chocolate ,180, 
-3, butterstoch ,190  ,
-4, oreo ,200,
->>>>>>> 293ecb21ac6fdce86a1530e24032b207644701ef
