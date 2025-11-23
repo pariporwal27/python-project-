@@ -57,5 +57,16 @@ Run the Python script and check the welcome message and options display.
 4. Adopt a pet and verify removal of the adopted pet from data table.
 5. Make a donation and confirm record is inserted in donation table .
 
+# Screenshots of output and changes in database 
+
+1. making reservation
+   <img width="991" height="496" alt="image" src="https://github.com/user-attachments/assets/e40d62f3-5513-477c-9cf6-c55a74ed96b1" />
+
+   changes in decor table
+   <img width="1083" height="250" alt="image" src="https://github.com/user-attachments/assets/464d086a-5dd3-4065-8b0d-a76ba162c81d" />
+   
+2. ordering and billing
+   
+
 
 
