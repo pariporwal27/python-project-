@@ -1,6 +1,6 @@
 # PET A CAT CAFE 
 
-# Proble statement 
+# Problem statement 
 To design a system using python that facilitates basic cat café services such as pet adoption, ordering food from menus and billing and also keeping a record for donation for pet care . allow user to register customers and maintain database with all the data in forms of various tables using sql .
 
 # Scope of the project 
