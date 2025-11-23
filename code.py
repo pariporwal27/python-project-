@@ -8,7 +8,7 @@ bill=[]
 o=int(input("""options: 
 1. reservation
 2. menu and bill
-3. adoapt a buddy
+3. adopt a buddy
 4.donation for pet care
 Enter your choice: """))
 y=input("are you a new customer? (yes/no) : ")
@@ -27,9 +27,11 @@ def func1():
     de=input("decoratation requirement ? (yes/no) : ")
     if de.lower()=="yes":
         th=input("enter theme : ")
+        cob.execute("insert into decor values ('{}' ,'{}',{},'{}')".format(da,t,g,th))
+    else:
+        cob.execute("insert into decor values ('{}' ,'{}',{},'none')".format(da,t,g))
     print("reservation done successfully , thanks!")
     print('visit again!!!!')
-    cob.execute("insert into decor values ('{}' ,'{}',{},'{}')".format(da,t,g,th))
     c.commit()
     
 def func2():
