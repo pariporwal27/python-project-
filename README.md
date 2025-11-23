@@ -7,7 +7,7 @@ The code is written in Python language and manages a pet cafe. Core functionalit
 
 # Features 
 
-# The features of the project includes :
+The features of the project includes :
 
 1. Reservation Functionality where user can select date and time, choose decor option according to their requirement .
 2. Allow the user to view menus of cakes, milkshakes, and ice cream and later create a bill with discounts applied for various price ranges 
