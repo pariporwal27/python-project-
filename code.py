@@ -127,7 +127,6 @@ def func3():
         print("Congratulations!!")
     else:
         print("it's ohk! maybe some other day ")
-    print(d)
 def func4():
     amount=int(input("enter amount for donation : "))
     name=input("enter name : ")
@@ -136,7 +135,6 @@ def func4():
     c.commit()
     cob.execute("select* from donation")
     da=cob.fetchall()
-    print(da)
     print("thanks for the donation!! , have a nice day")
 
 
