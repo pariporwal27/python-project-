@@ -1,13 +1,13 @@
 # python-project -
 Pet a Cat <3 Cafe Management System
 
-#Overview
+# Overview
 
 The code is written in Python language and manages a pet cafe. Core functionalities of the system include customer management, event reservations, ordering from the menu and billing , pet adoptions, and donations for pet care . The application uses MySQL at the backend for database purposes and a command-line interface for user interaction.
 
-#Features 
+# Features 
 
-#The features of the project includes :
+# The features of the project includes :
 
 1. Reservation Functionality where user can select date and time, choose decor option according to their requirement .
 2. Allow the user to view menus of cakes, milkshakes, and ice cream and later create a bill with discounts applied for various price ranges 
@@ -15,7 +15,7 @@ The code is written in Python language and manages a pet cafe. Core functionalit
 4. keep record  of donations for pet care at the café along with the donor's details in a file.
 
 
-#Technologies/Tools Used
+# Technologies/Tools Used
 
 1. Python 3 with mysql.connector 
 2. PrettyTable 
@@ -25,7 +25,7 @@ The code is written in Python language and manages a pet cafe. Core functionalit
 6. func1 as reservation system, func2 menu & billing, func3 as adoption system and func4 as donation system.
 7. Database Tables: customer, decor, cake (menu), milkshake(menu), icecream(menu) , data (pet), donation
 
-#Steps to install and run your Pet a Cat <3 Cafe project :
+# Steps to install and run your Pet a Cat <3 Cafe project :
 
 1. Install Required Software :
 Visual Studio Code
@@ -44,12 +44,12 @@ pip install mysql-connector-python prettytable
 10. Run the Project and interact with the program.
 11. commit and push from GitHub Desktop.
 
-#Instruction for testing 
+# Instruction for testing 
 
 Confirm the database and tables exist with sample data for menu and pets.
 Run the Python script and check the welcome message and options display.
 
-#Test the key functions:
+# Test the key functions:
 
 1. Register new customer and verify in table customer of the database named catcafe.
 2. Make a reservation and check if the data is inserted in decor table.
