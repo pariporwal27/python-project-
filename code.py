@@ -113,7 +113,6 @@ def func3():
     table.field_names = fields
     cob.execute("select * from data ")
     d=cob.fetchall()
-    
     table.add_rows(d)
     print(table)
     print()
@@ -130,12 +129,10 @@ def func3():
 def func4():
     amount=int(input("enter amount for donation : "))
     name=input("enter name : ")
-    date= input("enter date" )
+    date= input("enter date : " )
     cob.execute("insert into donation values ('{}', '{}', {})".format(name, date, amount))
     c.commit()
-    cob.execute("select* from donation")
-    da=cob.fetchall()
-    print("thanks for the donation!! , have a nice day")
+    print("thanks for the donation!! , have a nice day !")
 
 
 if o==1:
