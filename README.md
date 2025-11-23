@@ -9,21 +9,21 @@ The code is written in Python language and manages a pet cafe. Core functionalit
 
 #The features of the project includes :
 
-1 Reservation Functionality where user can select date and time, choose decor option according to their requirement .
-2 Allow the user to view menus of cakes, milkshakes, and ice cream and later create a bill with discounts applied for various price ranges 
-3 Facilitate the adoption of pets by listing available pets and updating records if a pet is adopted  .
-4 keep record  of donations for pet care at the café along with the donor's details in a file.
+1. Reservation Functionality where user can select date and time, choose decor option according to their requirement .
+2. Allow the user to view menus of cakes, milkshakes, and ice cream and later create a bill with discounts applied for various price ranges 
+3. Facilitate the adoption of pets by listing available pets and updating records if a pet is adopted  .
+4. keep record  of donations for pet care at the café along with the donor's details in a file.
 
 
 #Technologies/Tools Used
 
-1 Python 3 with mysql.connector 
-2 PrettyTable 
-3 MySQL database 
-4 SQL queries 
-5 Modules : mysql.connector, prettytable
+1. Python 3 with mysql.connector 
+2. PrettyTable 
+3. MySQL database 
+4. SQL queries 
+5. Modules : mysql.connector, prettytable
 6. func1 as reservation system, func2 menu & billing, func3 as adoption system and func4 as donation system.
-7 Database Tables: customer, decor, cake (menu), milkshake(menu), icecream(menu) , data (pet), donation
+7. Database Tables: customer, decor, cake (menu), milkshake(menu), icecream(menu) , data (pet), donation
 
 #Steps to install and run your Pet a Cat <3 Cafe project :
 
