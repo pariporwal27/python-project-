@@ -1,5 +1,5 @@
 # python-project -
-Pet a Cat <3 Cafe Management System
+Pet a Cat Cafe Management System
 
 # Overview
 
