@@ -81,9 +81,9 @@ enter choice : """))
     print()
     cob.execute("select * from customer where id={}".format(id_no))
     l=cob.fetchall()
-    print("customer id : " , l[0][2] )
-    print("name : " ,l[0][0] )
-    print("contact : ",l[0][1] )     
+    print("Customer id : " , l[0][2] )
+    print("Name : " ,l[0][0] )
+    print("Contact : ",l[0][1] )     
     tableb=PrettyTable()
     tableb.field_names = fields1
     tableb.add_rows(bill)
@@ -92,18 +92,18 @@ enter choice : """))
     for i in  range(len(bill)):
                     c=int(bill[i][2])   
                     t+=c     
-    print("total : ",t)
+    print("Total : ",t)
     if t>500 :
                     e=0.15*t
                     t-=e
-                    print("discount : 15%  ")
-                    print("total prize",t)
+                    print("Discount : 15%  ")
+                    print("Total prize",t)
     else :
         e=0.05*t
         t-=e
-        print("discount : 5% ")
-        print("total prize =",t)
-    print("visit again!!!") 
+        print("Discount : 5% ")
+        print("Total prize =",t)
+    print("Visit again!!!") 
    
 
 def func3():
