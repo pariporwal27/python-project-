@@ -28,10 +28,10 @@ The features of the project includes :
 # Steps to install and run your Pet a Cat <3 Cafe project :
 
 1. Install Required Software :
-Visual Studio Code
-GitHub Desktop
-Python 3.x
-Git 
+  Visual Studio Code
+  GitHub Desktop
+  Python 3.x
+  Git 
 2. Clone Repository with GitHub Desktop
 3. Open GitHub Desktop and sign in to your GitHub account.
 4. clone your project repository to a local folder.
