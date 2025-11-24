@@ -116,23 +116,23 @@ def func3():
     table.add_rows(d)
     print(table)
     print()
-    ch=input( "ready to pick your buddy ? [yes/no] : ")
+    ch=input( "Ready to pick your buddy ? [yes/no] : ")
     if ch=="yes":
-        name=input("enter name of pet slected :")
+        name=input("Enter name of pet slected :")
         for i in d:
             if i[0]==name:
                 cob.execute("delete from data where name='{}'".format(i[0]))
                 c.commit()
         print("Congratulations!!")
     else:
-        print("it's ohk! maybe some other day ")
+        print("It's ohk! maybe some other day ")
 def func4():
-    amount=int(input("enter amount for donation : "))
-    name=input("enter name : ")
-    date= input("enter date : " )
-    cob.execute("insert into donation values ('{}', '{}', {})".format(name, date, amount))
+    amount=int(input("Enter amount for donation : "))
+    name=input("Enter name : ")
+    date= input("Enter date : " )
+    cob.execute("nsert into donation values ('{}', '{}', {})".format(name, date, amount))
     c.commit()
-    print("thanks for the donation!! , have a nice day !")
+    print("Thanks for the donation!! , have a nice day !")
 
 
 if o==1:
