@@ -1,13 +1,13 @@
 import mysql.connector as ms
 from prettytable import  PrettyTable 
 c=ms.connect(host='localhost',user='root',password='your_new_password' ,database='catcafe')
-print("welcome to PET A CAT <3 CAFE , hope you have a great day !")
+print("Welcome to PET A CAT <3 CAFE , Hope you have a great day !")
 print()
 cob=c.cursor()
 bill=[]
-o=int(input("""options: 
-1. reservation
-2. menu and bill
+o=int(input("""Options: 
+1. Reservation
+2. Menu and Bill
 3. adopt a buddy
 4. donation for pet care
 Enter your choice: """))
