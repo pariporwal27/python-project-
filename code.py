@@ -32,8 +32,7 @@ def func1():
         cob.execute("insert into decor values ('{}' ,'{}',{},'none')".format(da,t,g))
     print("reservation done successfully , thanks!")
     print('visit again!!!!')
-    c.commit()
-    
+    c.commit()    
 def func2():
     con="true"
     fields1=['id' , 'name' , 'price' ]
