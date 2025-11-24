@@ -1,4 +1,4 @@
-import mysql.connector as ms
+import mysql.connector as m
 from prettytable import  PrettyTable 
 c=ms.connect(host='localhost',user='root',password='your_new_password' ,database='catcafe')
 print("welcome to PET A CAT <3 CAFE , hope you have a good day !")
