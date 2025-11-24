@@ -3,14 +3,14 @@
 
 # Overview
 
-The code is written in Python language and manages a pet cafe. Core functionalities of the system include customer management, event reservations, ordering from the menu and billing , pet adoptions, and donations for pet care . The application uses MySQL at the backend for database purposes and a command-line interface for user interaction.
+The code is written using Python language and manages a pet cafe. Core functions of the system include customer management, event reservations, ordering from the menu and billing , pet adoptions, and donations for pet care . The application uses MySQL at the backend for database purposes and a command-line interface for user interaction.
 
 # Features 
 
-The features of the project includes :
+The features of the project includes : 
 
 1. Reservation Functionality where user can select date and time, choose decor option according to their requirement .
-2. Allow the user to view menus of cakes, milkshakes, and ice cream and later create a bill with discounts applied for various price ranges 
+2. Allow the user to view menus of cakes, milkshakes, and ice cream and later create a bill with discounts applied for various price ranges .
 3. Facilitate the adoption of pets by listing available pets and updating records if a pet is adopted  .
 4. keep record  of donations for pet care at the café along with the donor's details in a file.
 
@@ -21,7 +21,7 @@ The features of the project includes :
 2. PrettyTable 
 3. MySQL database 
 4. SQL queries 
-5. Modules : mysql.connector, prettytable
+5. Modules as mysql.connector, prettytable
 6. func1 as reservation system, func2 menu & billing, func3 as adoption system and func4 as donation system.
 7. Database Tables: customer, decor, cake (menu), milkshake(menu), icecream(menu) , data (pet), donation
 
