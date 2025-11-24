@@ -23,21 +23,21 @@ else :
 def func1():
     da=input ("enter date for event : ")
     t=input("enter time : ")
-    g=int(input("enter no. of people : "))
-    de=input("decoratation requirement ? (yes/no) : ")
+    g=int(input("Enter no. of people : "))
+    de=input("Decoratation requirement ? (yes/no) : ")
     if de.lower()=="yes":
-        th=input("enter theme : ")
+        th=input("Enter theme : ")
         cob.execute("insert into decor values ('{}' ,'{}',{},'{}')".format(da,t,g,th))
     else:
         cob.execute("insert into decor values ('{}' ,'{}',{},'none')".format(da,t,g))
-    print("reservation done successfully , thanks!")
-    print('visit again!!!!')
+    print("Reservation done successfully , thanks!")
+    print('Visit again!!!!')
     c.commit()    
 def func2():
     con="true"
     fields1=['id' , 'name' , 'price' ]
     while con=="true" :
-        ci=int(input("""select your food mood :
+        ci=int(input("""Select your food mood :
 1.Cake
 2.Milkshake 
 3.Ice cream
