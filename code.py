@@ -39,8 +39,8 @@ def func2():
     fields1=['id' , 'name' , 'price' ]
     while con=="true" :
         ci=int(input("""select your food mood :
-1.Cakes
-2.Milkshakes 
+1.Cake
+2.Milkshake 
 3.Ice cream
 enter choice : """))
         if  ci ==1:
