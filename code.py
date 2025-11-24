@@ -9,7 +9,7 @@ o=int(input("""options:
 1. reservation
 2. menu and bill
 3. adopt a buddy
-4.donation for pet care
+4. donation for pet care
 Enter your choice: """))
 y=input("are you a new customer? (yes/no) : ")
 if y=='yes':
