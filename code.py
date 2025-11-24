@@ -8,14 +8,14 @@ bill=[]
 o=int(input("""Options: 
 1. Reservation
 2. Menu and Bill
-3. adopt a buddy
-4. donation for pet care
+3. Adopt a buddy
+4. Donation for pet care
 Enter your choice: """))
-y=input("are you a new customer? (yes/no) : ")
-if y=='yes':
-    name=input("enter name : ")
-    contact=int(input("enter contact : "))
-    id_no = int(input("input id : "))
+y=input("Are you a new customer? (yes/no) : ")
+if y.lower()=='yes':
+    name=input("Enter name : ")
+    contact=int(input("Enter contact : "))
+    id_no = int(input("Input id : "))
     cob.execute("insert into customer values ( '{}','{}',{}) ".format(name,contact,id_no))
     c.commit()
 else :
