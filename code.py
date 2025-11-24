@@ -144,4 +144,4 @@ if o==2:
 if o==3:
     func3()
 if o==4:
-    pass 
+    func4() 
