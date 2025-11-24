@@ -19,10 +19,10 @@ if y.lower()=='yes':
     cob.execute("insert into customer values ( '{}','{}',{}) ".format(name,contact,id_no))
     c.commit()
 else :
-    id_no = int(input("input id : "))
+    id_no = int(input("Input id : "))
 def func1():
-    da=input ("enter date for event : ")
-    t=input("enter time : ")
+    da=input ("Enter date for event : ")
+    t=input("Enter time : ")
     g=int(input("Enter no. of people : "))
     de=input("Decoratation requirement ? (yes/no) : ")
     if de.lower()=="yes":
@@ -51,8 +51,7 @@ enter choice : """))
             print(table1)
             od=int(input("enter item id :"))
             item=t1[od-1]
-            bill.append(item)
-            
+            bill.append(item)    
         if  ci ==2:
             cob.execute("select * from cake ")
             t2=cob.fetchall()
@@ -60,7 +59,7 @@ enter choice : """))
             table2.field_names = fields1
             table2.add_rows(t2)
             print(table2)
-            od=int(input("enter item no : "))
+            od=int(input("Enter item no : "))
             item=t2[od-1]
             bill.append(item)
         if  ci ==3:
@@ -70,11 +69,11 @@ enter choice : """))
             table3.field_names = fields1
             table3.add_rows(t3)
             print(table3)
-            od=int(input("enter item id : "))
+            od=int(input("Enter item id : "))
             item=t3[od-1]
             bill.append(item)
-        mo=input("got more item to pick?(yes/no) : ")
-        if mo=="no" :
+        mo=input("Got more item to pick?(yes/no) : ")
+        if mo.lower()=="no" :
             con="false"
     print()
     print("****************************************************************")
