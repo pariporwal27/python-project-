@@ -78,7 +78,7 @@ enter choice : """))
         if mo=="no" :
             con="false"
     print()
-    print("******************************************************************")
+    print("****************************************************************")
     print ("bill")
     print()
     cob.execute("select * from customer where id={}".format(id_no))
