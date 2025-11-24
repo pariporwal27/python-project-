@@ -1,4 +1,4 @@
-1, chocolate dream , 250 ,
-2, strawberrie rush , 300 , 
-3, mixed fruit feast  , 300 ,
-4, blurberry blast , 250 ,
+1, chocolate dream , 270 ,
+2, strawberrie rush , 320 , 
+3, mixed fruit feast  , 320 ,
+4, blurberry blast , 270 ,
