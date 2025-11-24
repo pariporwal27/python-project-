@@ -2,6 +2,7 @@ import mysql.connector as ms
 from prettytable import  PrettyTable 
 c=ms.connect(host='localhost',user='root',password='your_new_password' ,database='catcafe')
 print("welcome to PET A CAT <3 CAFE , hope you have a good day !")
+print()
 cob=c.cursor()
 bill=[]
 o=int(input("""options: 
