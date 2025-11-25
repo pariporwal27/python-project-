@@ -12,9 +12,9 @@ The project focuses on building a terminal-based management system using Python 
 - Recording donations for pet care
 
 # Target Users
-- Staff of a Pet Cafe that manages daily task at the counter
-- Cafe owners who need a simple system for keeping track of record of customers, reservations, adoptions, and donations
-- beginners who want to understand Python–MySQL based program in a real-world themed scenario
+- Staff of a Pet Cafe that manages daily task at the counter .
+- Cafe owners who need a simple system for keeping track of record of customers, reservations, adoptions, and donations .
+- beginners who want to understand Python–MySQL based program in a real-world themed scenario .
 
 # High-Level Features
 - Customer Management : regirter new customer details and extract customer deatail using existing customer IDs.
