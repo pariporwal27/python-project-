@@ -1,4 +1,5 @@
 # python-project -
+
 #Pet a Cat Cafe Management System
 
 # Overview
@@ -35,12 +36,12 @@ The features of the project includes :
 2. Clone Repository with GitHub Desktop
 3. Open GitHub Desktop and sign in to your GitHub account.
 4. clone your project repository to a local folder.
-5. Open Project in VS Code
+5. Open Project in VS Code .
 6. In GitHub Desktop, select your repository and click "Open in Visual Studio Code".
-7. VS Code will load your project files
+7. VS Code will load your project files .
 8. In VS Code, select Python interpreter .
 9. Install required Python modules  ( mysql-connector-python, prettytable) using the terminal:
-pip install mysql-connector-python prettytable
+pip install mysql-connector-python prettytable .
 10. Run the Project and interact with the program.
 11. commit and push from GitHub Desktop.
 
