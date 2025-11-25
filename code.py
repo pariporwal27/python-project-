@@ -130,7 +130,7 @@ def func4():
     amount=int(input("Enter amount for donation : "))
     name=input("Enter name : ")
     date= input("Enter date : " )
-    cob.execute("nsert into donation values ('{}', '{}', {})".format(name, date, amount))
+    cob.execute("Insert into donation values ('{}', '{}', {})".format(name, date, amount))
     c.commit()
     print("Thanks for the donation!! , have a nice day !")
 
