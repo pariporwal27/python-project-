@@ -109,7 +109,6 @@ enter choice : """))
         print("Total prize =",t)
     print("Visit again!!!") 
    
-
 def func3():
     print("BUDDIES LOADING.....  " )
     fields=['name' , 'breed' , 'age' ]
@@ -130,6 +129,7 @@ def func3():
         print("Congratulations!!")
     else:
         print("It's ohk! maybe some other day ")
+        
 def func4():
     amount=int(input("Enter amount for donation : "))
     name=input("Enter name : ")
