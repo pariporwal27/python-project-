@@ -12,6 +12,7 @@ o=int(input("""Options:
 4. Donation for pet care
 Enter your choice: """))
 y=input("Are you a new customer? (yes/no) : ")
+
 if y.lower()=='yes':
     name=input("Enter name : ")
     contact=int(input("Enter contact : "))
@@ -20,6 +21,7 @@ if y.lower()=='yes':
     c.commit()
 else :
     id_no = int(input("Input id : "))
+    
 def func1():
     da=input ("Enter date for event : ")
     t=input("Enter time : ")
